@@ -1,0 +1,59 @@
+:root {
+  --background-color: indigo;
+  --complementary-color: #40E0D0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+#check-btn, #clear-btn {
+  margin-top: 2vh;
+  width: 10vw;
+  height: 20px;
+  max-width: 80px;
+  min-width: 60px;
+}
+
+h1 {
+  margin-top: 20vh;
+  color: var(--complementary-color);
+  font-size: 40px;
+}
+
+#user-input {
+  margin-top: 6vh;
+  width: 40vw;
+  border: 1px solid black;
+  max-width: 300px;
+  min-width: 210px;
+}
+
+#check-btn:hover, #clear-btn:hover {
+  cursor: pointer;
+}
+
+#results-div {
+  color: var(--complementary-color);
+  margin-top: 6vh;
+}
+
+.result-child {
+  margin-bottom: 2vh;
+}
+
+.result-child:last-of-type {
+  margin-bottom: 0vh;
+}
