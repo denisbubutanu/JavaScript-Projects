@@ -2,15 +2,15 @@ const checkButton = document.querySelector("#check-btn")
 const inputField = document.querySelector("#text-input")
 const result = document.querySelector("#result")
 
+// Checks the input field is non-empty
 const checkPalindrome = () => {
   const inputValue = inputField.value;
-  console.log(inputValue)
   if (inputValue === "") {
     alert("Please input a value")
   }
   const newInput = fixInput(inputValue)
+  // Reverses the input and checks whether it is equal to the original string
   const reversedInput = newInput.split("").reverse().join("")
-  console.log(reversedInput)
   if (newInput === reversedInput) {
     result.innerText = `${inputValue} is a palindrome`
   } else {
@@ -19,15 +19,14 @@ const checkPalindrome = () => {
 }
 
 
-
+// Regex making sure remove punctiation, spaces and puts all in lower case.
 const fixInput = (str) => {
   const regex = /[^a-zA-Z\d\s:]/g;
   let fixedInput =  str.replace(regex, '').toLowerCase().split(" ").join("");
-  console.log(fixedInput)
   return fixedInput;
 }
 
 
 
-
+// Event listener for the check button
 checkButton.addEventListener("click", checkPalindrome)
