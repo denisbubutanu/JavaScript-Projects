@@ -23,7 +23,7 @@ const checkInput = () => {
   }
 }
 
-// The following function, numberToArray, firstly splits the number input into an array of the number's digits.
+// The following function, numberToArray, firstly splits the number input into an array of the number's digits
 const numberToArray = (number) => {
   const numArray = String(number).split("")
   
@@ -31,7 +31,7 @@ const numberToArray = (number) => {
   let unitsPlace, tensPlace, hundredsPlace, thousandsPlace;
   
   /* It then assigns each of the 4 variables above the digit corresponding to its place i.e 
-  if the number is 436, it assigns unitsPlace to 6, tensPlace to 3, hundredsPlace to 4 and thousandsPlace to null*/
+  if the number is 436, it assigns unitsPlace to 6, tensPlace to 3, hundredsPlace to 4 and thousandsPlace to null */
   if ((numArray.length - 1) >= 0) {
     unitsPlace = numArray[numArray.length - 1]
   } else {
