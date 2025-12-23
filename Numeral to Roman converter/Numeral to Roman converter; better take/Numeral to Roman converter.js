@@ -2,6 +2,7 @@ const convertButton = document.querySelector("#convert-btn");
 const inputNumber = document.querySelector("#number");
 const output = document.querySelector("#output");
 
+// Defined a "legend" of sorts
 const romanNumerals = [
   { value: 1000, numeral: "M" },
   { value: 900, numeral: "CM" },
@@ -18,7 +19,8 @@ const romanNumerals = [
   { value: 1, numeral: "I" }
 ];
 
-
+/* Recursive function that takes the input number and assigns it a numeral from the
+"legend" above then runs the function again on the remainder between the number and the value */
 const convertToRoman = (number) => {
   if (number === 0) return "";
   for (const { value, numeral } of romanNumerals) {
@@ -28,6 +30,8 @@ const convertToRoman = (number) => {
   }
 };
 
+/* Checks if the input satisfies certain constraints, such as being less than 3999.
+If those constraints are all satisfied, the else block runs the convertToRoman function */
 const checkInput = () => {
   const inputValue = parseInt(inputNumber.value);
 
@@ -42,6 +46,7 @@ const checkInput = () => {
   }
 };
 
+// Adds an event listener to the button that runs the event of checking the input
 convertButton.addEventListener("click", checkInput);
 
 inputNumber.addEventListener("keydown", (e) => {
