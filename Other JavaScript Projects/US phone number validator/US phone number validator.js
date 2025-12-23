@@ -14,7 +14,7 @@ const checkInput = () => {
   } else {
       // A rather lengthy regex checking the many forms of US phone numbers
       const phoneRegex = /^(1)?(-|\s)?(([0-9][0-9][0-9])|(\([0-9][0-9][0-9]\)))(-|\s)?([0-9][0-9][0-9])(-|\s)?([0-9][0-9][0-9][0-9])$/;
-      // If the input matches the regex, it calls validAppend on it. Else, it calls invalidAppen
+      // If the input matches the regex, it calls validAppend on it. Else, it calls invalidAppend
   return phoneNumber.match(phoneRegex) === null ? invalidAppend(phoneNumber) : validAppend(phoneNumber)
   }
 }
