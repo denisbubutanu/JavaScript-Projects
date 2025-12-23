@@ -1,9 +1,11 @@
+/* root element to define colors as varibles */
 :root {
   --background-color: indigo;
   --complementary-color: #40E0D0;
 }
 
 
+/* Centering the body */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
