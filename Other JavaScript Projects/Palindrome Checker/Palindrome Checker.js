@@ -19,7 +19,7 @@ const checkPalindrome = () => {
 }
 
 
-// Regex making sure remove punctiation, spaces and puts all in lower case.
+// Regex that removes punctuation, spaces and makes everything lowercase
 const fixInput = (str) => {
   const regex = /[^a-zA-Z\d\s:]/g;
   let fixedInput =  str.replace(regex, '').toLowerCase().split(" ").join("");
