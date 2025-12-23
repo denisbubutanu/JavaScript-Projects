@@ -2,13 +2,13 @@ const convertButton = document.querySelector("#convert-btn")
 const inputNumber = document.querySelector("#number")
 const output = document.querySelector("#output")
 
-
+// function which calls another function named numberToArray
 const convertToRoman = (number) => {
-  console.log(number);
   numberToArray(number)
 }
 
-
+/* Below function makes sure the number input satisfies certain constraints such as being less than 3999, 
+after which it runs a function to convert the number if it is of appropriate format */
 const checkInput = () => {
   const inputValue = inputNumber.value;
   if (inputValue === "" || isNaN(inputValue)) {
@@ -23,12 +23,15 @@ const checkInput = () => {
   }
 }
 
+// The following function, numberToArray, firstly splits the number input into an array of the number's digits.
 const numberToArray = (number) => {
   const numArray = String(number).split("")
-  console.log(numArray)
-
+  
+  // It then defines the following 4 variables
   let unitsPlace, tensPlace, hundredsPlace, thousandsPlace;
-
+  
+  /* It then assigns each of the 4 variables above the digit corresponding to its place i.e 
+  if the number is 436, it assigns unitsPlace to 6, tensPlace to 3, hundredsPlace to 4 and thousandsPlace to null*/
   if ((numArray.length - 1) >= 0) {
     unitsPlace = numArray[numArray.length - 1]
   } else {
@@ -50,7 +53,9 @@ const numberToArray = (number) => {
     thousandsPlace = null
   }
 
-
+  /* The function then uses many if-else statements and number comparasions
+  to basically break down the number into thousands, hundreds, tens and units, assigns
+  them a numeral and glues them together */
   if (thousandsPlace <= 3) {
     output.innerText += "M".repeat(thousandsPlace)
   }
@@ -83,7 +88,7 @@ const numberToArray = (number) => {
   }
 }
 
-
+// Event listener for the convert button
 convertButton.addEventListener("click", checkInput)
 
 inputNumber.addEventListener("keydown", (e) => {
