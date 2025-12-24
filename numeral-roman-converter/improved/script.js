@@ -33,7 +33,7 @@ const convertToRoman = (number) => {
 /* Checks if the input satisfies certain constraints, such as being less than 3999.
 If those constraints are all satisfied, the else block runs the convertToRoman function */
 const checkInput = () => {
-  const inputValue = parseInt(inputNumber.value);
+  const inputValue = inputNumber.value;
 
   if (isNaN(inputValue)) {
     output.innerText = "Please enter a valid number";
