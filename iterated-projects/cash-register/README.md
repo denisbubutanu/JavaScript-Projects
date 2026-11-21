@@ -1,4 +1,4 @@
-##This is one of the latest and most difficult projects I have done with JavaScript
+## This is one of the latest and most difficult projects I have done with JavaScript
 
 This is a Cash Register, whereby the amount of money in the register can be changed, as well as the "price" of an item and the cash the user has. It then calculates the change due after purchasing one unit of an item, until the cash register no longer has the funds to give back exact change.
 
