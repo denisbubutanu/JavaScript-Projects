@@ -10,6 +10,6 @@ Much like the "original" version, during this project I made use of string and a
 
 ## How to run?
 
-Using GitHub Pages, the following link should allow you to see the code in action: https://denisbubutanu.github.io/JavaScript-Projects/numeral-roman-converter/improved/index.html
+Using GitHub Pages, the following link should allow you to see the code in action: https://denisbubutanu.github.io/JavaScript-Projects/iterated-projects/numeral-roman-converter/improved/index.html
 
 Note, this implementation should look exactly like the original version. It should also give the same answer as the original version.
