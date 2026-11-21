@@ -1,1 +1,7 @@
-Temporary readme
+## This folder contains two interesting examples where I decided to improve upon existing, working code
+
+The two projects below (roman-numeral-converter and cash-register) correspond to two projects I worked on while learning JavaScript. They are particularly interesting because I was not instantly able to see the solution and instead had to sit and think about how I would approach them. While I eventually reached a working solution in both cases, I was left feeling as if the code was messy, hard to read and understand and rather inefficient. As such, I decided to go back to these shortly after completing them in an attempt to improve them. Within each of these folders, you will be presented with an "original" but still working version of each solution, where I explain in more detail my thinking behind it and where I think it fell short. Additionally, you will also be presented with an "improved" version of the code, that is cleaner, easier to read and understand and more efficient. 
+
+In general, the key lesson (among many) taken from these projects was the difference between iterative and recursive implementations, in particular where and why one would use one of these over the other. In chronological order, I completed the "roman-numeral-converter" project before the "cash-register" project. I state this because the order in which I completed these projects goes some way to explaining why I decided to go for a recursive approach in the "cash-register" project initially, and why I ultimately decided not to use it in the improved version. 
+
+Each project README.md will have a link to the GitHub Pages of that project, so you can run it without having to clone or download repositories!
