@@ -126,24 +126,9 @@ const calculateChange = (num1, num2) => {
   }
 }
 
-/* The same array as monetaryValues which will allow us to reset the entire project via the event clicker below for repeat use, since we do directly alter that monetaryValues array with the previous functions */
-const allValues = [
-  ['ONE HUNDRED', 100],
-  ['TWENTY', 20],
-  ['TEN', 10],
-  ['FIVE', 5],
-  ['ONE', 1],
-  ['QUARTER', 0.25],
-  ['DIME', 0.10],
-  ['NICKEL', 0.05],
-  ['PENNY', 0.01]
-];
-
-/* Click event listener which clears the change due section, empties the denomination tracker and resets the workingCid array and monetaryValues arrays to their original forms to be reused before calling the main function */
+/* Click event listener which clears the change due section, empties the denomination tracker */
 purchaseBtn.addEventListener("click", () => {
   changeDueSection.textContent = "";
   denominationTracker = {};
-  workingCid = cid.map(([name, amount]) => [name, amount]);
-  monetaryValues = allValues.map(([name, value]) => [name, value]);
   cashPriceCompare();
 });
