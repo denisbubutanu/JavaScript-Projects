@@ -10,6 +10,6 @@ During this project, I used string and array manipulation, DOM Manipulation and 
 
 ## How to run?
 
-Using GitHub Pages, the following link should allow you to see the code in action: https://denisbubutanu.github.io/JavaScript-Projects/numeral-roman-converter/original/index.html
+Using GitHub Pages, the following link should allow you to see the code in action: https://denisbubutanu.github.io/JavaScript-Projects/iterated-projects/numeral-roman-converter/original/index.html
 
 Note, this implementation should look exactly like the improved version. It should also give the same answer as the improved version.
