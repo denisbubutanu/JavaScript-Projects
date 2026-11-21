@@ -1,6 +1,6 @@
 ## This is my JavaScript repository, home to projects meant to help me learn new concepts and consolidate existing ones. 
 
-The "numeral-roman-converter" in particular is a good example of a tough problem that I later iterated upon via a better, cleaner version. 
+The folder titled "iterated-projects" are projects where I have provided my original implementation of the solution to a problem but was ultimately left feeling like it was not the best way to approach it. As such, each project in that folder has a refined version where I coded a cleaner and more efficient solution. 
 
 Each project will also have HTML and CSS code, although I wanted the focus of these projects to be more about the JavaScript code. Despite this, I learned quite a few new HTML and CSS concepts in the meantime such as defining CSS variables (particularly for colors) in the :root, as well as using other units such as vw, vh, rem, etc to improve the responsiveness of my code. 
 
