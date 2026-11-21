@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <meta charset="UTF-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <meta name="description" content="Cash Register"></meta>
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css"></link>
+  </head>
+
+  <body onload="updateDrawer()">
+    <main>
+      <h1>Cash Register</h1>
+      <div id="change-due"></div>
+      <div id="price">Total: $<span></span></div>
+      <input id="cash" placeholder="Please enter the customer's cash amount"></input>
+      <div id="buttons">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <button id="purchase-btn">Purchase</button>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      
+      <div id="register">
+        <h3 id="cid-title-div">Change in Drawer</h3>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
