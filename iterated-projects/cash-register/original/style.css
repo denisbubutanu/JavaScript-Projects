@@ -3,7 +3,7 @@
   --complementary-color: #40E0D0;
 }
 
-
+/* You will notice I tried to make my solution responsive, and so I stayed away freom px mostly and instead resorted to vw and vh more */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
