@@ -4,4 +4,4 @@ In this project, I applied my knowledge of APIs and Promises to make an app that
 
 ## How to run?
 
-Using GitHub Pages, the following link should allow you to see the code in action: 
+Using GitHub Pages, the following link should allow you to see the code in action: https://denisbubutanu.github.io/JavaScript-Projects/other-projects/creature-search-app/index.html
