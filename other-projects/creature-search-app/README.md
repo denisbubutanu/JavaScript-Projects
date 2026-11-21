@@ -5,3 +5,5 @@ In this project, I applied my knowledge of APIs and Promises to make an app that
 ## How to run?
 
 Using GitHub Pages, the following link should allow you to see the code in action: https://denisbubutanu.github.io/JavaScript-Projects/other-projects/creature-search-app/index.html
+
+The creature IDs are numbers from 0-20. Feel free to pick one of those numbers and check out their details!
