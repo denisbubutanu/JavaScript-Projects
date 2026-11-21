@@ -1,4 +1,4 @@
-## This project is my latest and most difficult one I’ve done so far in JavaScript.
+## This project is was one of the most difficult one I’ve done so far in JavaScript.
 
 This is a Number to Roman Numeral Converter. It currently only allows numbers up to and including 3999.
 
